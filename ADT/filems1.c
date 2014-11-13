@@ -17,7 +17,7 @@ struct film{
 };
 
 
-int main(int argc, const char * argv[]) {
+int main_1(int argc, const char * argv[]) {
  
     struct film movies[FMAX];
     int i = 0;
