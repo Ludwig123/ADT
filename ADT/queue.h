@@ -18,7 +18,7 @@ typedef int Item;
 
 #define MAXQUEUE 10
 
-typedef struct node;
+typedef struct node
 {
     Item item;
     struct node * next;
@@ -34,7 +34,7 @@ typedef struct queue
 //操作：初始化duilie
 //操作前：pq指向一个队列
 //操作后：该队列被初始化为空队列
-void  InitializeQueue(Queue * pq)
+void  InitializeQueue(Queue * pq);
 
 bool QueueIsFull(const Queue * pq);
 
