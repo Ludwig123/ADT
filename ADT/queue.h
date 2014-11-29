@@ -14,7 +14,11 @@
 
 //在此处插入Item的定义
 
-typedef int Item;
+typedef struct item
+{
+    long arrive;
+    int processtime;
+}Item;
 
 #define MAXQUEUE 10
 
